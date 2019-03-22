@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acting Site</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="actingSite.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Montserrat:400,700" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+  <div class= "container">
+      <a class="navbar-brand" href="#">Carly Pecora</a>
+      <div class="navbar-nav ml-auto dropdown">
+        <button data-toggle="dropdown" style="outline: none;">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="dropdown-menu">
+          <ul>
+            <li>
+              <a class="navItems portfolio" href="#">Portfolio</a>
+            </li>
+            <li>
+              <a class="navItems resume" href="#">Resume</a>
+            </li> 
+            <button class="contact" onclick="location.href='#contactForm'" style="outline: none;">Contact</button>
+          </ul>
+        </div>
+      </div>
+  </div>
+</nav>
+
+<section>
+  <img class="pic1" src="CARLY-5.jpg">
+</section>
+
+<div class="container">
+<h1>
+  Carly Pecora is an actress, singer, and model living in New York City.
+</h1>
+<p>
+  Carly Pecora is a recent graduate of the American Musical and Dramatic Academy, where she studied musical theatre. A Poconos, Pennsylvania native, Carly's love of theatre began at the age of 5 in a community theatre production of the Little Mermaid. Since moving to New York, Carly has made a number of appearances in theatre, film, and modeling.
+</p>
+</div>
+
+<div class="slideshow-container">
+  <img class="mySlides" src="jj1_1437.JPG">
+  <img class="mySlides" src="IMG_3060.JPG">
+  <img class="mySlides" src="jj1_2158.JPG">
+  <img class="mySlides" src="background.jpg">
+  <img class="mySlides" src="1W1B7516-Edit.jpg">
+  <img class="mySlides" src="IMG_3060.JPG">
+  <img class="mySlides" src="jj1_2926.JPG">
+  <img class="mySlides" src="jj1_1474.JPG">
+  <!-- <a class="prev"><i class="fas fa-angle-left"></i></a>
+  <a class="next"><i class="fas fa-angle-right"></i></a> -->
+</div>
+
+ <h6 class="formsubmit">Please send all inquiries to carly@carlypecora.com</h6>
+
+<div id="contactForm">
+  <form class="form" >
+      <label>Email Address*
+        <input type="email" name="emailAddress" placeholder=" " required>
+      </label>
+      <label>Subject*
+        <input type="text" name="subject" required>
+      </label>
+      <label>
+        Message*
+        <textarea name="paragraph" rows="10" cols="50"></textarea>
+      </label>
+      <button class="submit">Submit</button>
+  </form>
+</div>
+
+<footer>
+  <a href="https://www.facebook.com/carly.a.pecora"><i class="fab fa-facebook"carly.a.pecora"></i></a>
+  <a href="https://twitter.com/CarlyPecora"><i class="fab fa-twitter""></i></a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="actingSite.js"></script>
+</body>
+</html>
