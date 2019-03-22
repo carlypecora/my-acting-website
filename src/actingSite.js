@@ -15,10 +15,10 @@ function showSlides() {
 
 function mapNavToPage(){
 	$(".resume").on("click", function(){
-		document.location.assign("res.html");
+		document.location.assign("./res.html");
 	});
 	$(".portfolio").on("click", function(){
-		document.location.assign("portfolio.html");
+		document.location.assign("./portfolio.html");
 	})
 	$(".navbar-brand").on("click", function(){
 		document.location.assign("../index.html");
