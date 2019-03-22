@@ -21,7 +21,7 @@ function mapNavToPage(){
 		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/src/portfolio.html");
 	})
 	$(".navbar-brand").on("click", function(){
-		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/src/index.html");
+		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/index.html");
 	})
 
 }
