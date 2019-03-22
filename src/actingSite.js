@@ -15,13 +15,13 @@ function showSlides() {
 
 function mapNavToPage(){
 	$(".resume").on("click", function(){
-		document.location.assign("file:///Users/carlypecora/Documents/actingSite/res.html");
+		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/src/res.html");
 	});
 	$(".portfolio").on("click", function(){
-		document.location.assign("file:///Users/carlypecora/Documents/actingSite/portfolio.html");
+		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/src/portfolio.html");
 	})
 	$(".navbar-brand").on("click", function(){
-		document.location.assign("file:///Users/carlypecora/Documents/actingSite/actingSite.html");
+		document.location.assign("file:///Users/carlypecora/Documents/my_acting_site/src/actingSite.html");
 	})
 
 }
