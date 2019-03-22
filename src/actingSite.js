@@ -13,9 +13,6 @@ function showSlides() {
   	setTimeout(showSlides, 6000); 
 }
 
-
-
-
 function mapNavToPage(){
 	$(".resume").on("click", function(){
 		document.location.assign("file:///Users/carlypecora/Documents/actingSite/res.html");
